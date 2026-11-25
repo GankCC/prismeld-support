@@ -1,0 +1,74 @@
+:root {
+  color-scheme: dark;
+  background: #0e1125;
+  color: #f3f4ff;
+  font-family: system-ui, "Thonburi", sans-serif;
+  line-height: 1.75;
+}
+
+body {
+  margin: 0;
+}
+
+header, main, footer {
+  max-width: 42rem;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+}
+
+header {
+  padding-block: 1.5rem;
+  border-bottom: 1px solid #323750;
+}
+
+header p {
+  color: #a9f5ff;
+  font-weight: 800;
+  letter-spacing: .12em;
+  margin: 0 0 .6rem;
+}
+
+nav {
+  display: flex;
+  gap: .4rem 1.2rem;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #a9f5ff;
+  text-underline-offset: .2em;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: .2em;
+}
+
+main {
+  padding-block: 2rem;
+}
+
+section + section {
+  border-top: 1px solid #323750;
+  margin-top: 2.75rem;
+  padding-top: 1.5rem;
+}
+
+h1, h2 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 6vw, 2.75rem);
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  padding-block: 1rem 2rem;
+  border-top: 1px solid #323750;
+  color: #c3c8dd;
+}
